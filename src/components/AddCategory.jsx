@@ -16,7 +16,7 @@ export const AddCategory = ({ onNewCategory }) => {
 
     const newInputValue = inputValue.trim();
 
-    if (newInputValue.length >= 1) {
+    if (newInputValue.length > 1) {
       //El set del Hook provee una funcion de callback con el valor del state
       // setCategories(categories => [...categories, inputValue]);
       setInputValue("");
@@ -25,7 +25,7 @@ export const AddCategory = ({ onNewCategory }) => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} aria-label="form">
       <input
         id="cat-inp"
         type="text"
@@ -37,6 +37,8 @@ export const AddCategory = ({ onNewCategory }) => {
   );
 };
 
-AddCategory.defaultProps = {
-  setCategories: PropTypes.func.isRequired,
+//AddCategory.defaultProps = {
+AddCategory.propTypes = {
+  // setCategories: PropTypes.func.isRequired,
+  onNewCategory: PropTypes.func.isRequired
 };
