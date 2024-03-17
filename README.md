@@ -1,6 +1,6 @@
 # Gif Expert App
 
-Primera aplicación del curso de React de Fernando Herrera
+Una simple aplicación en la que se pueden buscar todo tipo de GIF's
 
 ## Demostración
 https://gif-expert-nd.netlify.app/
