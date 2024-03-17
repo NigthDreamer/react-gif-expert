@@ -1,6 +1,6 @@
 # Gif Expert App
 
-Primera aplicacion del curso de React de Fernando Herrera
+Primera aplicación del curso de React de Fernando Herrera
 
-## Demostracion
+## Demostración
 https://gif-expert-nd.netlify.app/
