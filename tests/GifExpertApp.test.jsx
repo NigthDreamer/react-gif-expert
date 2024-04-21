@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import GifExpertApp from "../src/GifExpertApp";
 

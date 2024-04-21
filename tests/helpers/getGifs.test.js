@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { getGifs } from "../../src/helpers/getGifs";
 
 describe("Pruebas en getGifs()", () => {
